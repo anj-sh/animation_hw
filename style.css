@@ -1,0 +1,14 @@
+@keyframes slide {
+    from { left: 0; }
+    to { left: 100%; }
+    0%   { fill: yellow; stroke: blue; left: 0; top: 0; }
+    25%  { fill: green; stroke:black; left: 200px; top: 0; }
+    50%  { fill: brown; stroke:purple; left: 200px; top: 200px; }
+    75%  { fill: red; stroke: green; left: 0; top: 200px; }
+    100% { fill: orange; stroke:red; left: 0; top: 0; }
+  }
+  
+  .square {
+    position: relative;
+    animation: slide 6s infinite;
+  }
